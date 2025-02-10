@@ -1,0 +1,53 @@
+{
+  "credentialTypeId": "AHC Vitals Aggregate",
+  "claimMode": "NORMAL",
+  "holderDid": "example",
+  "credentialData": {
+    "bpSys1DayAvg": 120.0,
+    "bpSys7DayAvg": 118.0,
+    "currentConditions": [
+      {
+        "conditionId": "cond1",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "severity": "High"
+      }
+    ],
+    "bpDia1DayTrend": "Stable",
+    "bpDia360DayAvg": 81.0,
+    "aggregationDate": "2024-12-09",
+    "bpDia1DayAvg": 80.0,
+    "bpSys180DayAvg": 119.0,
+    "bpSys30DayAvg": 115.0,
+    "weightDailyAvgLbs": 170.0,
+    "bpSys360DayAvg": 121.0,
+    "bpDia30DayAvg": 75.0,
+    "vitalAggregateID": "123456",
+    "bpSys1DayTrend": "Stable",
+    "bpSys90DayAvg": 117.0,
+    "bpDiaUom": "mmHg",
+    "bpDia90DayAvg": 77.0,
+    "organizationId": "Org001",
+    "currBmiValue": 24.5,
+    "measurementType": "Blood Pressure",
+    "bpDia180DayAvg": 79.0,
+    "bpSysUom": "mmHg",
+    "bpDia7DayAvg": 78.0,
+    "user": {
+      "userId": "user123",
+      "name": "John Doe",
+      "gender": "Male",
+      "email": "john.doe@example.com",
+      "phone": "1234567890",
+      "heightInch": "72",
+      "emergencyContacts": [
+        {
+          "name": "Jane Doe",
+          "phone": "0987654321",
+          "email": "jane.doe@example.com",
+          "relation": "Spouse"
+        }
+      ]
+    }
+  }
+}
